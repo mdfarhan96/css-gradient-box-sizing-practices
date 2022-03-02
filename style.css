@@ -1,0 +1,57 @@
+.box1 {
+  height: 100px;
+  background-image: linear-gradient(blue, red);
+}
+.box2 {
+  height: 100px;
+  background-image: radial-gradient(rgb(0, 255, 0), red);
+}
+.box3 {
+  background-color: blueviolet;
+  height: 250px;
+  width: 250px;
+  float: left;
+  clear: right;
+}
+.box4 {
+  background-color: aqua;
+  height: 250px;
+  width: 250px;
+  float: right;
+  clear: left;
+}
+.box5 {
+  background-color: rgb(226, 223, 43);
+  height: 250px;
+  width: 250px;
+}
+
+.box6 {
+  background-color: rgb(226, 86, 43);
+  height: 250px;
+  width: 250px;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.box11 {
+  /* height: 200px;
+  width: 200px;
+  border: 5px;
+  padding: 50px; */
+  box-sizing: content-box;
+  background-color: blueviolet;
+}
+.box12 {
+  /* height: 200px;
+  width: 200px;
+  width: 200px;
+  border: 5px;
+  padding: 50px; */
+  box-sizing: border-box;
+  background-color: aqua;
+}
